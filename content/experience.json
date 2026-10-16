@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "approvalStatus": "pending",
+  "publicDisplay": false,
+  "entries": [
+    {
+      "id": "college-computer-engineering",
+      "type": "education",
+      "organization": "Khmelnytskyi Polytechnic Professional College by Lviv Polytechnic National University",
+      "credential": "Computer Engineering",
+      "role": null,
+      "start": "2017",
+      "end": "2021",
+      "datePrecision": "year",
+      "completionStatus": "completed",
+      "approvalStatus": "pending",
+      "publicDisplay": false,
+      "internalNotes": []
+    },
+    {
+      "id": "university-computer-engineering",
+      "type": "education",
+      "organization": "Khmelnytskyi National University",
+      "credential": "Bachelor, Computer Engineering",
+      "role": null,
+      "start": "2021",
+      "end": "2024",
+      "datePrecision": "year",
+      "completionStatus": "completed",
+      "approvalStatus": "pending",
+      "publicDisplay": false,
+      "internalNotes": []
+    },
+    {
+      "id": "valiwo",
+      "type": "employment",
+      "organization": "Valiwo",
+      "credential": null,
+      "role": "Frontend Developer",
+      "start": "2023",
+      "end": "2024",
+      "datePrecision": "year",
+      "completionStatus": "completed",
+      "approvalStatus": "pending",
+      "publicDisplay": false,
+      "internalNotes": [
+        "Work was described as Joomla, JavaScript scripts, and website themes.",
+        "Specific website names, responsibilities, and measurable outcomes have not been provided."
+      ]
+    },
+    {
+      "id": "full-stack-open",
+      "type": "course",
+      "organization": "University of Helsinki",
+      "credential": "Full Stack Open",
+      "role": null,
+      "start": null,
+      "end": "2026-09",
+      "datePrecision": "month",
+      "completionStatus": "needs-confirmation",
+      "approvalStatus": "pending",
+      "publicDisplay": false,
+      "internalNotes": [
+        "The original notes say the course starts on May 16 and finishes in September 2026, but the start year and completion of course sections have not been confirmed.",
+        "Do not display as completed until the course status is confirmed."
+      ]
+    },
+    {
+      "id": "german-study",
+      "type": "language-study",
+      "organization": null,
+      "credential": "German language course",
+      "role": null,
+      "start": "2024",
+      "end": null,
+      "datePrecision": "year",
+      "completionStatus": "in-progress",
+      "approvalStatus": "pending",
+      "publicDisplay": false,
+      "internalNotes": [
+        "Reported: B1 course completed and B2 course in progress.",
+        "Exact course dates have not been provided."
+      ]
+    },
+    {
+      "id": "hacktoberfest-2026",
+      "type": "activity",
+      "organization": "Hacktoberfest",
+      "credential": null,
+      "role": null,
+      "start": "2026",
+      "end": "2026",
+      "datePrecision": "year",
+      "completionStatus": "needs-confirmation",
+      "approvalStatus": "pending",
+      "publicDisplay": false,
+      "internalNotes": [
+        "The user described themselves as a Hacktoberfest 2026 completionist, but specific contributions and completion evidence were not provided.",
+        "Do not present this as a verified award or completion until confirmed."
+      ]
+    }
+  ]
+}

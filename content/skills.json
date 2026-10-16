@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 2,
+  "approvalStatus": "pending",
+  "publicDisplay": false,
+  "note": "Technology list reported by the user. Proficiency levels and project usage have not been verified. Do not infer expertise from inclusion in this list.",
+  "groups": [
+    {
+      "id": "languages-and-web",
+      "label": "Languages & Web",
+      "skills": [
+        {
+          "id": "javascript",
+          "name": "JavaScript (ES6+)",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "html",
+          "name": "HTML",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "css",
+          "name": "CSS",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "skills": [
+        {
+          "id": "react",
+          "name": "React",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "react-hooks",
+          "name": "React Hooks",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "react-context",
+          "name": "React Context API",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "zustand",
+          "name": "Zustand",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "tanstack-query",
+          "name": "TanStack Query",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "react-router",
+          "name": "React Router",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "tailwind",
+          "name": "Tailwind CSS",
+          "experienceNote": "Low experience",
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        }
+      ]
+    },
+    {
+      "id": "backend-and-apis",
+      "label": "Backend & APIs",
+      "skills": [
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "express",
+          "name": "Express.js",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "rest",
+          "name": "REST APIs",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "graphql",
+          "name": "GraphQL",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data",
+      "skills": [
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "mongoose",
+          "name": "Mongoose",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        }
+      ]
+    },
+    {
+      "id": "testing-and-tools",
+      "label": "Testing & Tools",
+      "skills": [
+        {
+          "id": "jest",
+          "name": "Jest",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "react-testing-library",
+          "name": "React Testing Library",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "playwright",
+          "name": "Playwright",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "eslint",
+          "name": "ESLint",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "vite",
+          "name": "Vite / esbuild",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "git",
+          "name": "Git",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "github-actions",
+          "name": "GitHub Actions",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        },
+        {
+          "id": "docker",
+          "name": "Docker",
+          "experienceNote": null,
+          "approvalStatus": "pending",
+          "publicDisplay": false
+        }
+      ]
+    }
+  ],
+  "internalNotes": [
+    "Only Tailwind CSS was explicitly described as low experience.",
+    "No project has yet been linked to any skill. Add project references only when confirmed."
+  ]
+}

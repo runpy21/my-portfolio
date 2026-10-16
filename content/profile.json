@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "approvalStatus": "pending",
+  "publicDisplay": false,
+  "identity": {
+    "name": {
+      "value": "Oleksandr Dmytruk",
+      "approvalStatus": "pending",
+      "publicDisplay": false
+    },
+    "title": {
+      "value": "Junior Full-Stack Developer",
+      "approvalStatus": "pending",
+      "publicDisplay": false
+    },
+    "location": {
+      "value": null,
+      "approvalStatus": "pending",
+      "publicDisplay": false
+    }
+  },
+  "currentStatus": {
+    "value": "Searching for a job",
+    "approvalStatus": "pending",
+    "publicDisplay": false
+  },
+  "careerGoals": [
+    {
+      "id": "full-time",
+      "value": "Full-time role",
+      "approvalStatus": "pending",
+      "publicDisplay": false
+    },
+    {
+      "id": "internships",
+      "value": "Internships",
+      "approvalStatus": "pending",
+      "publicDisplay": false
+    }
+  ],
+  "audience": [
+    {
+      "id": "hiring-manager",
+      "value": "Hiring manager",
+      "publicDisplay": false
+    },
+    {
+      "id": "engineer",
+      "value": "Engineer reviewing code",
+      "publicDisplay": false
+    },
+    {
+      "id": "recruiter",
+      "value": "Recruiter scanning quickly",
+      "publicDisplay": false
+    }
+  ],
+  "languages": [
+    {
+      "id": "german",
+      "language": "German",
+      "level": "B1 completed; B2 course in progress",
+      "approvalStatus": "pending",
+      "publicDisplay": false
+    }
+  ],
+  "relocation": {
+    "value": "Relocated to Germany during 2024–2025",
+    "approvalStatus": "pending",
+    "publicDisplay": false
+  },
+  "internalNotes": [
+    "Confirm which profile fields should appear on the public website before approving this file."
+  ]
+}
