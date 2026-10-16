@@ -1,0 +1,339 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background: var(--field);
+  color: var(--ink);
+}
+
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--field);
+  font-family: var(--font-chapter);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.measure {
+  max-width: var(--measure);
+  margin: 0;
+}
+
+.shell {
+  display: grid;
+  grid-template-rows: var(--folio-height) minmax(0, 1fr);
+  grid-template-columns: var(--rail-size) minmax(0, 1fr);
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--field);
+  color: var(--ink);
+}
+
+.folio {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  height: var(--folio-height);
+  padding: 0 var(--folio-padding-inline);
+  border-bottom: 1px solid var(--ink);
+  background: var(--field);
+}
+
+.folio-name,
+.folio-title,
+.folio-availability {
+  margin: 0;
+  font-family: var(--font-index);
+  text-transform: uppercase;
+}
+
+.folio-name {
+  font-size: var(--folio-name-size);
+  font-weight: 600;
+  line-height: var(--folio-name-line);
+  letter-spacing: var(--folio-name-tracking);
+  color: var(--ink);
+}
+
+.folio-title,
+.folio-availability {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+}
+
+.folio-title {
+  font-weight: 500;
+  color: var(--ink-secondary);
+}
+
+.folio-availability {
+  margin-left: auto;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.folio a {
+  font-family: var(--font-index);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--ink);
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.rail {
+  grid-column: 1;
+  grid-row: 2;
+  min-height: 0;
+  overflow-y: auto;
+  border-right: 1px solid var(--ink);
+  background: var(--field);
+}
+
+.year {
+  display: grid;
+  grid-template-columns: var(--stamp-size) minmax(0, 1fr);
+  width: 100%;
+  height: var(--year-row-height);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font-family: var(--font-index);
+  text-align: left;
+  cursor: pointer;
+  appearance: none;
+}
+
+.year-stamp {
+  background: var(--field);
+}
+
+.year-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--space-4) var(--space-5);
+}
+
+.year-primary,
+.year-secondary {
+  margin: 0;
+}
+
+.year-primary {
+  font-size: var(--year-primary-size);
+  font-weight: 500;
+  line-height: var(--year-primary-line);
+  color: var(--ink);
+}
+
+.year-secondary {
+  margin-top: var(--space-1);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-secondary);
+}
+
+.year:hover .year-copy,
+.year[aria-selected="true"] .year-copy {
+  background: var(--row);
+}
+
+.year[aria-selected="true"] .year-stamp {
+  background: var(--stamp);
+}
+
+.year:focus-visible,
+.folio a:focus-visible,
+.chapter a:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+.chapter {
+  grid-column: 2;
+  grid-row: 2;
+  min-height: 0;
+  overflow-y: auto;
+  padding: var(--chapter-pad-block-start) var(--chapter-pad-inline)
+    var(--chapter-pad-block-end);
+  background: var(--field);
+}
+
+.chapter-eyebrow,
+.chapter-title,
+.chapter-meta,
+.chapter-body,
+.project-name {
+  max-width: var(--measure);
+  margin: 0;
+}
+
+.chapter-eyebrow {
+  font-family: var(--font-index);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-secondary);
+}
+
+.chapter-title {
+  margin-top: var(--space-2);
+  font-family: var(--font-chapter);
+  font-size: var(--chapter-title-size);
+  font-weight: 600;
+  line-height: var(--chapter-title-line);
+  color: var(--ink);
+}
+
+.chapter-meta {
+  margin-top: var(--space-4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--ink-secondary);
+}
+
+.chapter-body {
+  margin-top: var(--space-6);
+  font-size: var(--chapter-body-size);
+  font-weight: 400;
+  line-height: var(--chapter-body-line);
+  color: var(--ink);
+  overflow-wrap: break-word;
+}
+
+.chapter-body + .chapter-body {
+  margin-top: var(--space-4);
+}
+
+.chapter a {
+  color: var(--ink);
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.chapter a:hover {
+  text-decoration-color: var(--stamp);
+}
+
+.chapter a:active {
+  text-decoration-thickness: 2px;
+}
+
+.tools {
+  max-width: var(--measure);
+  margin-top: var(--space-7);
+}
+
+.tool-group + .tool-group {
+  margin-top: var(--space-5);
+}
+
+.project {
+  max-width: var(--measure);
+  margin-top: var(--space-7);
+}
+
+.project-name {
+  margin-top: var(--space-2);
+  font-size: var(--project-name-size);
+  font-weight: 600;
+  line-height: var(--project-name-line);
+}
+
+.project-links {
+  display: flex;
+  gap: var(--space-5);
+  margin-top: var(--space-4);
+}
+
+.year-stamp,
+.year-copy,
+.chapter {
+  transition-property: background-color, opacity;
+  transition-duration: var(--duration-rail);
+  transition-timing-function: var(--ease-rail);
+}
+
+@media (max-width: 699px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto var(--rail-size) minmax(0, 1fr);
+  }
+
+  .folio {
+    height: auto;
+    min-height: 72px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: var(--space-3) var(--space-4);
+    row-gap: var(--space-1);
+  }
+
+  .folio-name {
+    flex: 1 0 100%;
+  }
+
+  .rail {
+    display: flex;
+    height: var(--rail-size);
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-right: 0;
+    border-bottom: 1px solid var(--ink);
+    scroll-snap-type: x mandatory;
+  }
+
+  .year {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 148px;
+    height: 88px;
+    border-bottom: 0;
+    border-right: 1px solid var(--rule);
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: var(--stamp-size) minmax(0, 1fr);
+    scroll-snap-align: start;
+  }
+
+  .chapter {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

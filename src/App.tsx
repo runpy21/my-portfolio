@@ -1,11 +1,5 @@
-function App() {
-  
+import { Shell } from './components/Shell.tsx'
 
-  return (
-    <>
-      <h1>runpy21</h1>
-    </>
-  )
+export default function App() {
+  return <Shell />
 }
-
-export default App

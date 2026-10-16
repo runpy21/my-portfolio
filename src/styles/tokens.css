@@ -1,0 +1,90 @@
+:root {
+  --field: #e7e2d6;
+  --ink: #121212;
+  --ink-secondary: #5c574e;
+  --stamp: #e24b2a;
+  --row: #ddd7c8;
+  --rule: #b7b1a4;
+
+  --font-index: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --font-chapter: Literata, Georgia, "Times New Roman", serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  --measure: 640px;
+  --stamp-size: 8px;
+  --duration-rail: 200ms;
+  --ease-rail: cubic-bezier(0.2, 0, 0, 1);
+
+  --folio-height: 72px;
+  --folio-padding-inline: var(--space-5);
+  --folio-name-size: 22px;
+  --folio-name-line: 24px;
+  --folio-name-tracking: 0.08em;
+  --rail-size: 320px;
+  --year-row-height: 88px;
+  --year-primary-size: 40px;
+  --year-primary-line: 36px;
+  --chapter-pad-block-start: var(--space-7);
+  --chapter-pad-inline: var(--space-8);
+  --chapter-pad-block-end: var(--space-9);
+  --chapter-title-size: 40px;
+  --chapter-title-line: 48px;
+  --chapter-body-size: 18px;
+  --chapter-body-line: 28px;
+  --project-name-size: 28px;
+  --project-name-line: 36px;
+}
+
+@media (max-width: 1099px) {
+  :root {
+    --folio-height: 64px;
+    --folio-padding-inline: var(--space-4);
+    --folio-name-size: 18px;
+    --folio-name-line: 20px;
+    --rail-size: 220px;
+    --year-row-height: 64px;
+    --year-primary-size: 28px;
+    --year-primary-line: 28px;
+    --chapter-pad-block-start: var(--space-6);
+    --chapter-pad-inline: var(--space-6);
+    --chapter-pad-block-end: var(--space-8);
+    --chapter-title-size: 32px;
+    --chapter-title-line: 40px;
+    --chapter-body-size: 17px;
+    --chapter-body-line: 26px;
+    --project-name-size: 24px;
+    --project-name-line: 32px;
+  }
+}
+
+@media (max-width: 699px) {
+  :root {
+    --folio-height: auto;
+    --folio-padding-inline: var(--space-4);
+    --folio-name-size: 20px;
+    --folio-name-line: 22px;
+    --folio-name-tracking: 0.06em;
+    --rail-size: 88px;
+    --year-row-height: 88px;
+    --year-primary-size: 28px;
+    --year-primary-line: 28px;
+    --chapter-pad-block-start: var(--space-5);
+    --chapter-pad-inline: var(--space-4);
+    --chapter-pad-block-end: var(--space-7);
+    --chapter-title-size: 32px;
+    --chapter-title-line: 40px;
+    --chapter-body-size: 17px;
+    --chapter-body-line: 26px;
+    --project-name-size: 24px;
+    --project-name-line: 32px;
+  }
+}
